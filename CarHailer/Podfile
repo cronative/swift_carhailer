@@ -1,0 +1,37 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'CarHailer' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for CarHailer
+  pod 'MFSideMenu'
+  pod 'SDWebImageWebPCoder'
+     pod 'SDWebImage'
+     pod 'SkyFloatingLabelTextField'
+     pod 'AlamofireObjectMapper', '~> 5.0'
+     pod 'SVProgressHUD', :git => 'https://github.com/SVProgressHUD/SVProgressHUD.git'
+     pod 'moa', '~> 12.0'
+     pod 'Auk', '~> 11.0'
+     pod 'ImageSlideshow', '~> 1.9.0'
+     pod "ImageSlideshow/SDWebImage"
+     pod "SHSearchBar"
+     pod 'Toast-Swift'
+     pod 'EzPopup'
+     pod 'IQKeyboardManagerSwift'
+     pod 'RAMAnimatedTabBarController'
+     pod 'SwiftSVG'
+     pod 'SVGKit'
+     pod 'Google-Mobile-Ads-SDK', '~> 7.67.0'
+
+  target 'CarHailerTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'CarHailerUITests' do
+    # Pods for testing
+  end
+
+end

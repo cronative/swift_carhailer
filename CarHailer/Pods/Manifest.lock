@@ -1,0 +1,168 @@
+PODS:
+  - Alamofire (4.9.1)
+  - AlamofireObjectMapper (5.2.1):
+    - Alamofire (~> 4.7)
+    - ObjectMapper (~> 3.4)
+  - Auk (11.0.0):
+    - moa
+  - CocoaLumberjack (3.7.0):
+    - CocoaLumberjack/Core (= 3.7.0)
+  - CocoaLumberjack/Core (3.7.0)
+  - EzPopup (1.2)
+  - Google-Mobile-Ads-SDK (7.67.1):
+    - GoogleAppMeasurement (~> 7.0)
+    - GoogleUserMessagingPlatform (~> 1.1)
+  - GoogleAppMeasurement (7.5.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.0)
+    - GoogleUtilities/MethodSwizzler (~> 7.0)
+    - GoogleUtilities/Network (~> 7.0)
+    - "GoogleUtilities/NSData+zlib (~> 7.0)"
+    - nanopb (~> 2.30907.0)
+  - GoogleUserMessagingPlatform (1.4.0)
+  - GoogleUtilities/AppDelegateSwizzler (7.2.2):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (7.2.2):
+    - PromisesObjC (~> 1.2)
+  - GoogleUtilities/Logger (7.2.2):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (7.2.2):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (7.2.2):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (7.2.2)"
+  - GoogleUtilities/Reachability (7.2.2):
+    - GoogleUtilities/Logger
+  - ImageSlideshow (1.9.1):
+    - ImageSlideshow/Core (= 1.9.1)
+  - ImageSlideshow/Core (1.9.1)
+  - ImageSlideshow/SDWebImage (1.9.1):
+    - ImageSlideshow/Core
+    - SDWebImage (>= 3.7)
+  - IQKeyboardManagerSwift (6.5.6)
+  - libwebp (1.1.0):
+    - libwebp/demux (= 1.1.0)
+    - libwebp/mux (= 1.1.0)
+    - libwebp/webp (= 1.1.0)
+  - libwebp/demux (1.1.0):
+    - libwebp/webp
+  - libwebp/mux (1.1.0):
+    - libwebp/demux
+  - libwebp/webp (1.1.0)
+  - MFSideMenu (0.5.5)
+  - moa (12.0.0)
+  - nanopb (2.30907.0):
+    - nanopb/decode (= 2.30907.0)
+    - nanopb/encode (= 2.30907.0)
+  - nanopb/decode (2.30907.0)
+  - nanopb/encode (2.30907.0)
+  - ObjectMapper (3.5.3)
+  - PromisesObjC (1.2.12)
+  - RAMAnimatedTabBarController (5.2.0)
+  - SDWebImage (5.10.0):
+    - SDWebImage/Core (= 5.10.0)
+  - SDWebImage/Core (5.10.0)
+  - SDWebImageWebPCoder (0.8.1):
+    - libwebp (~> 1.0)
+    - SDWebImage/Core (~> 5.10)
+  - SHSearchBar (1.7.0)
+  - SkyFloatingLabelTextField (4.0.0)
+  - SVGKit (2.1.1):
+    - CocoaLumberjack (~> 3.0)
+  - SVProgressHUD (2.2.6):
+    - SVProgressHUD/Core (= 2.2.6)
+  - SVProgressHUD/Core (2.2.6)
+  - SwiftSVG (2.3.2)
+  - Toast-Swift (5.0.1)
+
+DEPENDENCIES:
+  - AlamofireObjectMapper (~> 5.0)
+  - Auk (~> 11.0)
+  - EzPopup
+  - Google-Mobile-Ads-SDK (~> 7.67.0)
+  - ImageSlideshow (~> 1.9.0)
+  - ImageSlideshow/SDWebImage
+  - IQKeyboardManagerSwift
+  - MFSideMenu
+  - moa (~> 12.0)
+  - RAMAnimatedTabBarController
+  - SDWebImage
+  - SDWebImageWebPCoder
+  - SHSearchBar
+  - SkyFloatingLabelTextField
+  - SVGKit
+  - SVProgressHUD (from `https://github.com/SVProgressHUD/SVProgressHUD.git`)
+  - SwiftSVG
+  - Toast-Swift
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireObjectMapper
+    - Auk
+    - CocoaLumberjack
+    - EzPopup
+    - Google-Mobile-Ads-SDK
+    - GoogleAppMeasurement
+    - GoogleUserMessagingPlatform
+    - GoogleUtilities
+    - ImageSlideshow
+    - IQKeyboardManagerSwift
+    - libwebp
+    - MFSideMenu
+    - moa
+    - nanopb
+    - ObjectMapper
+    - PromisesObjC
+    - RAMAnimatedTabBarController
+    - SDWebImage
+    - SDWebImageWebPCoder
+    - SHSearchBar
+    - SkyFloatingLabelTextField
+    - SVGKit
+    - SwiftSVG
+    - Toast-Swift
+
+EXTERNAL SOURCES:
+  SVProgressHUD:
+    :git: https://github.com/SVProgressHUD/SVProgressHUD.git
+
+CHECKOUT OPTIONS:
+  SVProgressHUD:
+    :commit: 1bb9afb90a79b022708b6cd7be7f1fb6bdc46a3a
+    :git: https://github.com/SVProgressHUD/SVProgressHUD.git
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AlamofireObjectMapper: 1989f690e982b71921b9253f53a4f33a9bc00d88
+  Auk: 7cc533252e2caaaa36b2be19c0b799f6057c365a
+  CocoaLumberjack: e8955b9d337ac307103b0a34fd141c32f27e53c5
+  EzPopup: 989ac21992a82ad6d1245c747a78bf3833279ef0
+  Google-Mobile-Ads-SDK: 4c11bba9a823ed16c42f14d42feebc7678fbfd6a
+  GoogleAppMeasurement: 65a1071e5f52f63ab03d0a4d814a54fd762d885a
+  GoogleUserMessagingPlatform: b168e8c46cd8f92aa3e34b584c4ca78a411ce367
+  GoogleUtilities: 31c5b01f978a70c6cff2afc6272b3f1921614b43
+  ImageSlideshow: 67184be896a28472bd3b906c33ce4e0734aa3d22
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  libwebp: 946cb3063cea9236285f7e9a8505d806d30e07f3
+  MFSideMenu: 268122e6894f2747fc3a2b48578100b232506c60
+  moa: e2346f12de6c65bbca4d103950d45db9e46785ef
+  nanopb: 59221d7f958fb711001e6a449489542d92ae113e
+  ObjectMapper: 97111c97e054a6ee25917662106689f0b4127b37
+  PromisesObjC: 3113f7f76903778cf4a0586bd1ab89329a0b7b97
+  RAMAnimatedTabBarController: 6863a386e7ae2ab227cd60aa73ab8ff56cdacfdd
+  SDWebImage: 9169792e9eec3e45bba2a0c02f74bf8bd922d1ee
+  SDWebImageWebPCoder: fac2821bf5a6642a73979d0962dbed5eac45a605
+  SHSearchBar: 9fcc9daff8a3264386b975961de6c485f33439d4
+  SkyFloatingLabelTextField: 79ddc40e4ad59707fedbb48d605417aee48bb78a
+  SVGKit: 652cdf7bef8bec8564d04a8511d3ab50c7595fac
+  SVProgressHUD: de812b4f0e1d65358f0064416473174ae619843f
+  SwiftSVG: ca7f64e403b8ea7ea8eba8c823b83ba4a059834c
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+
+PODFILE CHECKSUM: b75af2501070b3dcf13bf2608f48e512df9654fb
+
+COCOAPODS: 1.10.1

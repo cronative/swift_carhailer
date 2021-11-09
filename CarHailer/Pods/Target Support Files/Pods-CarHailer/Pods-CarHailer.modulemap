@@ -1,0 +1,6 @@
+framework module Pods_CarHailer {
+  umbrella header "Pods-CarHailer-umbrella.h"
+
+  export *
+  module * { export * }
+}
